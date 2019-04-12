@@ -7,7 +7,12 @@ As illustrated in the Figure below, VLAC clusters word embeddings to create *k* 
 
 ## Usage
 ```python
+# Train model and transform collection of documents
 vlac_model = VLAC(documents=train_docs, model=model, oov=False)
 vlac_features, kmeans = vlac_model.fit_transform(num_concepts=30)
+
+# Create features new documents
+vlac_model = VLAC(documents=train_docs, model=model, oov=False)
+test_features = vlac_model.transform(kmeans=kmeans)
 ```
 
