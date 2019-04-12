@@ -5,3 +5,9 @@ As illustrated in the Figure below, VLAC clusters word embeddings to create *k* 
 
 <img src="https://github.com/MaartenGr/VLAC/blob/master/vlac.png" width="70%"/>
 
+## Usage
+```python
+vlac_model = VLAC(documents=train_docs, model=model, oov=False)
+vlac_features, kmeans = vlac_model.fit_transform(num_concepts=30)
+```
+
