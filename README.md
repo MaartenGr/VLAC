@@ -1,9 +1,9 @@
 # Vectors of Locally Aggregated Concepts (VLAC)
 
-[![PyPI - Status](https://img.shields.io/badge/status-beta-yellow.svg)]()
-[![PyPI - Python](https://img.shields.io/badge/python-3.4%20%7C%203.5%20%7C%203.6-blue.svg)]()
-[![PyPI - Python](https://img.shields.io/badge/license-MIT-green.svg)]()
-
+[![PyPI - Status](https://img.shields.io/badge/status-beta-yellow.svg)](https://pypi.org/project/vlac/)
+[![PyPI - Python](https://img.shields.io/badge/python-3.4%20%7C%203.5%20%7C%203.6-blue.svg)](https://pypi.org/project/vlac/)
+[![PyPI - License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/MaartenGr/VLAC/blob/master/LICENSE)
+[![PyPI - PyPi](https://img.shields.io/badge/pypi-0.1.2.5-blue.svg)](https://pypi.org/project/vlac/)
 
 ## Installation
 
