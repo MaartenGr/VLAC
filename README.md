@@ -32,11 +32,10 @@ with open('Data/r8_docs.txt', "r") as f:
     docs = f.readlines()
 
 # Train model and transform collection of documents
-vlac_model = VLAC(documents=train_docs, model=model, oov=False)
+vlac_model = VLAC(documents=docs, model=model, oov=False)
 vlac_features, kmeans = vlac_model.fit_transform(num_concepts=30)
 
-# Create features new documents
-vlac_model = VLAC(documents=train_docs, model=model, oov=False)
-test_features = vlac_model.transform(kmeans=kmeans)
+# Create features for new documents
+vlac_model = VLAC(documents=docs, model=model, oov=False)
+vlac_features = vlac_model.transform(kmeans=kmeans)
 ```
-
