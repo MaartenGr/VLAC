@@ -13,6 +13,6 @@ setuptools.setup(
     install_requires=['numpy', 'sklearn'],
     long_description=long_description,
     long_description_content_type="text/markdown",
-    version='0.1.1',
+    version='0.1.2',
     license='MIT',
 )
