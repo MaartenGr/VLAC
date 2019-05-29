@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='Vectors of Locally Aggregate Concepts',
+    name='vlac',
     author='Maarten Grootendorst',
     author_email='maartengrootendorst@gmail.com',
     url="https://github.com/MaartenGr/VLAC",
@@ -13,6 +13,6 @@ setuptools.setup(
     install_requires=['numpy', 'sklearn'],
     long_description=long_description,
     long_description_content_type="text/markdown",
-    version='0.1',
+    version='0.1.1',
     license='MIT',
 )
