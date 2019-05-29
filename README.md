@@ -16,10 +16,21 @@ As illustrated in the Figure below, VLAC clusters word embeddings to create *k* 
 
 <img src="https://github.com/MaartenGr/VLAC/blob/master/Images/vlac.png?raw=true" width="70%"/>
 
-## Usage
-Tested in python 3.5.4. 
+## Usage / Example
+Below is an example of how to use the model. The example mirrors the Reuters R8 dataset 
 
 ```python
+from vlac import VLAC
+import pickle
+
+# Contains embeddings for Reuters R8
+with open('Data/r8_glove_1f.pickle', 'rb') as handle:
+    model = pickle.load(handle)
+
+# Load data
+with open('Data/r8_docs.txt', "r") as f:
+    docs = f.readlines()
+
 # Train model and transform collection of documents
 vlac_model = VLAC(documents=train_docs, model=model, oov=False)
 vlac_features, kmeans = vlac_model.fit_transform(num_concepts=30)
