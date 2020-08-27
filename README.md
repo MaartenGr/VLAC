@@ -5,6 +5,10 @@
 [![PyPI - License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/MaartenGr/VLAC/blob/master/LICENSE)
 [![PyPI - PyPi](https://img.shields.io/badge/pypi-0.1.2.5-blue.svg)](https://pypi.org/project/vlac/)
 
+Grootendorst, M., & Vanschoren, J. (2019, September). Beyond Bag-of-Concepts: Vectors of Locally Aggregated Concepts. *In Joint European Conference on Machine Learning and Knowledge Discovery in Databases* (pp. 681-696). Springer, Cham.
+
+Article can be found [here](https://www.ecmlpkdd2019.org/downloads/paper/489.pdf). 
+
 ## Installation
 
 Installation can be done using [pypi](https://pypi.org/project/vlac/)
